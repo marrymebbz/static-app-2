@@ -10,43 +10,34 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<!-- External CSS -->
 	<link rel="stylesheet" href="./index.css">
-	<title>BOOKBLOSSOM - Dive into the world of stories that inspire, educate, and spark your imagination.</title>
+	<title>PIXELBUILDERS - Transform Ideas into Stunning Websites.</title>
 </head>
 <body>
-	<div class="container-fluid text-center bg-green text-white fw-bold py-2">
-		Celebrate Christmas with books! Enjoy up to 60% off bestsellers! Click <a href="#hero" class="text-white">here</a>.
+	<div class="container-fluid text-center bg-blue text-white fw-bold py-2">
+		Unlock your web development potential—start building your future today! <a href="#ome" class="text-white">Inquire now!</a>.
 	</div>
-	<header class="bg-lightgray border-green">
+	<header class="bg-lightgray border-blue">
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
-				<a class="navbar-brand text-green text-uppercase fw-bold" href="#">BookBlossom</a>
+				<a class="navbar-brand text-blue text-uppercase fw-bold" href="#">PixelBuilders</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
 					<li class="nav-item text-dark">
-						<a class="nav-link active text-uppercase fw-bold" aria-current="page" href="#">All</a>
+						<a class="nav-link active text-uppercase fw-bold" aria-current="page" href="#home">Home</a>
 					</li>
 					<li class="nav-item text-dark">
-						<a class="nav-link text-uppercase fw-bold" href="#">Books</a>
-					</li>
-					<li class="nav-item text-dark">
-						<a class="nav-link text-uppercase fw-bold" href="#">Textbooks</a>
+						<a class="nav-link text-uppercase fw-bold" href="#categories-section">Categories</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-uppercase fw-bold" href="#">Ebooks</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-uppercase fw-bold" href="#">AudioBooks</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-uppercase fw-bold" href="#">Pocketbooks</a>
+						<a class="nav-link text-uppercase fw-bold" href="#about">About</a>
 					</li>
 				</ul>
 				<form class="d-flex">
 					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-none bg-white text-green text-uppercase fw-bold" type="submit">Search</button>
+					<button class="btn btn-outline-none bg-white text-blue text-uppercase fw-bold" type="submit">Search</button>
 				</form>
 				</div>
 			</div>
@@ -55,188 +46,265 @@
 	<!-- Navbar Section End -->
 
 	<body>
-		<!-- Hero Section Start -->
-		<section id="hero" class="container pt-2">
-			<h1 class="text-center py-2 bg-limegreen fs-4 text-white text-uppercase">
-				--- Welcome to Book Blossom! ---
-			</h1>
-			<div id="bookBlossomCarousel" class="carousel slide" data-bs-ride="carousel">
+		<!-- Home Section Start -->
+		<section id="home" class="container pt-2">
+			<div class="p-3 bg-blue mb-2" id="introduction">
+				<h1 class="text-center bg-limeblue text-white fs-4 text-uppercase fw-bold mb-0">
+					--- Welcome to PixelBuilders! ---
+				</h1>
+				<p class="text-center text-white fs-5 pb-0 mb-0">
+					Your ultimate destination for mastering web development. From beginner to advanced, our platform provides everything you need to create stunning, functional websites.
+				</p>
+			</div>
+			<div id="pixelBuildersCarousel" class="carousel slide" data-bs-ride="carousel">
 				<!-- Indicators at the bottom -->
 				<div class="carousel-indicators">
-					<button type="button" data-bs-target="#bookBlossomCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-					<button type="button" data-bs-target="#bookBlossomCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-					<button type="button" data-bs-target="#bookBlossomCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#pixelBuildersCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#pixelBuildersCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#pixelBuildersCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
 				</div>
 				<!-- Carousel inner -->
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./images/home/slide-1.jpg" class="d-block w-100" alt="Slide 1">
+						<img src="./images/slider/slide1.jpg" class="d-block w-100" alt="Slide 1">
 					</div>
 					<div class="carousel-item">
-						<img src="./images/home/slide-2.jpg" class="d-block w-100" alt="Slide 2">
+						<img src="./images/slider/slide2.jpg" class="d-block w-100" alt="Slide 2">
 					</div>
 					<div class="carousel-item">
-						<img src="./images/home/slide-3.jpg" class="d-block w-100" alt="Slide 3">
+						<img src="./images/slider/slide3.jpg" class="d-block w-100" alt="Slide 3">
 					</div>
 				</div>
 				<!-- Left and right controls -->
-				<button class="carousel-control-prev" type="button" data-bs-target="#bookBlossomCarousel" data-bs-slide="prev">
+				<button class="carousel-control-prev" type="button" data-bs-target="#pixelBuildersCarousel" data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
 				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#bookBlossomCarousel" data-bs-slide="next">
+				<button class="carousel-control-next" type="button" data-bs-target="#pixelBuildersCarousel" data-bs-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Next</span>
 				</button>
 			</div>
-		</section>
-		<!-- Hero Section End -->
-
-		<!-- About BookBlossom Start -->
-		<section class="container mt-5">
-			<h2 class="text-center fs-4 text-green text-uppercase py-0 my-0">--- About BookBlossom ---</h2>
-			<h3 class="text-center fs-4 text-limegreen py-0 my-0">Our Story</h3>
-			<p class="text-center text-black">At Book Blossom, we’re passionate about cultivating a love for reading. We aim to connect readers with books that enlighten, entertain, and enrich lives—one page at a time.</p>
-			<div class="row row-cols-1 row-cols-md-3 g-4">
-				<div class="col">
-					<div class="card h-100 pt-3 border-green">
-						<div class="text-center">
-							<i class="bi bi-geo-alt-fill fs-2 text-limegreen"></i>
-						</div>
-						<div class="card-body">
-							<h5 class="card-title text-center text-green">When We Started?</h5>
-							<p class="card-text text-center">Founded in 2024, BookBlossom aims to make books accessible to all, providing a platform for book lovers to discover new reads, share recommendations, and enjoy discounts on their favorite titles.</p>
-						</div>
-						<div class="card-footer text-center bg-green text-white fw-bold">
-							<small>Explore, discover, and buy books today!</small>
+			<!-- Featured Resources Start -->
+			<div class="container mt-5" id="featured">
+				<h2 class="text-center fs-4 text-blue text-uppercase py-0 my-0">--- Featured Courses ---</h2>
+				<h3 class="text-center fs-4 text-limeblue py-0 my-0">Learn, Build, Succeed</h3>
+				<p class="text-center text-black">Explore our top-rated courses, covering topics like HTML, CSS, JavaScript, and beyond. Designed by experts, these resources guide you step-by-step toward becoming a web development pro.</p>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card h-100 pt-3 border-blue">
+							<div class="text-center">
+								<i class="bi bi-1-circle-fill fs-2 text-blue"></i>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center text-blue">HTML: Building the Foundation</h5>
+								<p class="card-text text-center">What You'll Learn: Master the core structure of web pages by learning how to use HTML. This course covers essential tags, elements, and best practices to create clean, semantic, and accessible web content. You'll build a strong foundation for any web development project.</p>
+							</div>
+							<div class="card-footer text-center bg-blue text-white fw-bold">
+								<small>Master HTML—the foundation of every great website!</small>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col">
-					<div class="card h-100 pt-3 border-green">
-						<div class="text-center">
-							<i class="bi bi-calendar-fill fs-2 text-limegreen"></i>
+					<div class="col">
+						<div class="card h-100 pt-3 border-blue">
+							<div class="text-center">
+								<i class="bi bi-2-circle-fill fs-2 text-blue"></i>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center text-blue">CSS: Styling with Elegance</h5>
+								<p class="card-text text-center">What You'll Learn: Transform plain HTML into visually stunning websites using CSS. This course teaches you everything from basic styling and layouts to advanced animations and responsive design, ensuring your websites look amazing on any device.</p>
+							</div>
+							<div class="card-footer text-center bg-blue text-white fw-bold">
+								<small>Design beautiful, responsive websites with CSS skills!</small>
+							</div>
 						</div>
-						<div class="card-body">
-							<h5 class="card-title text-center text-green">Where We're Based?</h5>
-							<p class="card-text text-center">Founded in 2024 in Manila, BookBlossom makes books accessible to everyone worldwide. Our platform offers discounts, recommendations, and global shipping, ensuring all readers can discover and enjoy our curated book collection.</p>
+					</div>
+					<div class="col">
+						<div class="card h-100 pt-3 border-blue">
+							<div class="text-center">
+								<i class="bi bi-3-circle-fill fs-2 text-blue"></i>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center text-blue">JavaScript: Bringing Websites to Life</h5>
+								<p class="card-text text-center">What You'll Learn: Learn how to make your websites dynamic and interactive with JavaScript. From manipulating the DOM to implementing complex functionalities, this course empowers you to create engaging user experiences and build projects that truly stand out.</p>
+							</div>
+							<div class="card-footer text-center bg-blue text-white fw-bold">
+								<small>Build dynamic websites with JavaScript!</small>
+							</div>
 						</div>
-						<div class="card-footer text-center bg-green text-white fw-bold">
-							<small>Find your next great read!</small>
-						</div>
-				  	</div>
-				</div>
-				<div class="col">
-					<div class="card h-100 pt-3 border-green">
-						<div class="text-center">
-							<i class="bi bi-basket3-fill fs-2 text-limegreen"></i>
-						</div>
-						<div class="card-body">
-							<h5 class="card-title text-center text-green">What We Offer?</h5>
-							<p class="card-text text-center">We offer a diverse collection of bestsellers, hidden gems, and books across all genres, including fiction, non-fiction, educational, and children’s titles, plus promotions, author interviews, and reading recommendations for every reader.</p>
-						</div>
-						<div class="card-footer text-center bg-green text-white fw-bold">
-							<small>Browse books, ignite your imagination!</small>
-						</div>
-				  	</div>
+					</div>
 				</div>
 			</div>
+			<!-- Featured Resources Start -->
 		</section>
-		<!-- About BookBlossom Start -->
+		<!-- Home Section End -->
 
-		<!-- Featured Products Start -->
-		<section class="container mt-5">
-			<h2 class="text-center fs-4 text-green text-uppercase py-0 my-0">--- Feature Books ---</h2>
-			<h3 class="text-center fs-4 text-limegreen py-0 my-0">Discover Your Next Favorite Read</h3>
-			<p class="text-center text-black">Handpicked by our book-loving team, our featured books are must-reads for every genre enthusiast. Explore stories that captivate and leave lasting impressions.</p>
-			<div id="bookBlossomCarousel" class="carousel slide" data-bs-ride="carousel">
-				<!-- Carousel inner -->
-				<div class="carousel-inner">
-				  <!-- Slide 1 -->
-				  <div class="carousel-item active">
-					<div class="row">
-					  <div class="col-md-2 offset-md-1">
-						<img src="./images/books/book1.jpg" class="d-block w-100" alt="Book 1">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book2.jpg" class="d-block w-100" alt="Book 2">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book3.jpg" class="d-block w-100" alt="Book 3">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book4.jpg" class="d-block w-100" alt="Book 4">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book5.jpg" class="d-block w-100" alt="Book 5">
-					  </div>
+		<!-- Categories Section Start -->
+		<section id="categories-section">
+			<!-- Category Listings Start -->
+			<div class="container mt-5" id="categories">
+				<h2 class="text-center fs-4 text-blue text-uppercase py-0 my-0">--- Courses Categories ---</h2>
+				<h3 class="text-center fs-4 text-limeblue py-0 my-0">Explore Our Top-Rated Courses</h3>
+				<p class="text-center text-black">From front-end to back-end development, our featured courses cover everything you need to build stunning websites and applications. Learn at your own pace and take your skills to the next level.</p>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card h-100 pt-3 border-blue">
+							<div class="text-center">
+								<i class="bi bi-1-circle-fill fs-2 text-blue"></i>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center text-blue">Front-End Development</h5>
+								<p class="card-text text-center">Learn how to build visually engaging and responsive websites with HTML, CSS, and JavaScript.</p>
+							</div>
+							<div class="card-footer text-center bg-blue text-white fw-bold">
+								<small>Unlock top courses and boost your skills!</small>
+							</div>
+						</div>
 					</div>
-				  </div>
-			  
-				  <!-- Slide 2 -->
-				  <div class="carousel-item">
-					<div class="row">
-					  <div class="col-md-2 offset-md-1">
-						<img src="./images/books/book6.jpg" class="d-block w-100" alt="Book 6">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book7.jpg" class="d-block w-100" alt="Book 7">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book8.jpg" class="d-block w-100" alt="Book 8">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book9.jpg" class="d-block w-100" alt="Book 9">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book10.jpg" class="d-block w-100" alt="Book 10">
-					  </div>
+					<div class="col">
+						<div class="card h-100 pt-3 border-blue">
+							<div class="text-center">
+								<i class="bi bi-2-circle-fill fs-2 text-blue"></i>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center text-blue">Back-End Development</h5>
+								<p class="card-text text-center">Master server-side programming, databases, and APIs to create robust web applications.</p>
+							</div>
+							<div class="card-footer text-center bg-blue text-white fw-bold">
+								<small>Build dream websites with our best courses!</small>
+							</div>
+						</div>
 					</div>
-				  </div>
-			  
-				  <!-- Slide 3 -->
-				  <div class="carousel-item">
-					<div class="row">
-					  <div class="col-md-2 offset-md-1">
-						<img src="./images/books/book11.jpg" class="d-block w-100" alt="Book 11">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book12.jpg" class="d-block w-100" alt="Book 12">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book13.jpg" class="d-block w-100" alt="Book 13">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book14.jpg" class="d-block w-100" alt="Book 14">
-					  </div>
-					  <div class="col-md-2">
-						<img src="./images/books/book15.jpg" class="d-block w-100" alt="Book 15">
-					  </div>
+					<div class="col">
+						<div class="card h-100 pt-3 border-blue">
+							<div class="text-center">
+								<i class="bi bi-3-circle-fill fs-2 text-blue"></i>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center text-blue">Full-Stack Development</h5>
+								<p class="card-text text-center">Become a versatile developer by mastering both front-end and back-end technologies.</p>
+							</div>
+							<div class="card-footer text-center bg-blue text-white fw-bold">
+								<small>Learn from experts with featured tutorials!</small>
+							</div>
+						</div>
 					</div>
-				  </div>
 				</div>
-			  
-				<!-- Left and right controls -->
-				<button class="carousel-control-prev" type="button" data-bs-target="#bookBlossomCarousel" data-bs-slide="prev">
-				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				  <span class="visually-hidden text-green">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#bookBlossomCarousel" data-bs-slide="next">
-				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				  <span class="visually-hidden">Next</span>
-				</button>
-			  </div>
+			</div>
+			<!-- Category Listings Start -->
+
+			<!-- Resources Start -->
+			<div class="container mt-5" id="resources">
+				<h2 class="text-center fs-4 text-blue text-uppercase py-0 my-0">--- Featured Resources ---</h2>
+				<h3 class="text-center fs-4 text-limeblue py-0 my-0">Explore Our Top-Rated Courses</h3>
+				<p class="text-center text-black">From front-end to back-end development, our featured courses cover everything you need to build stunning websites and applications. Learn at your own pace and take your skills to the next level.</p>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card h-100 pt-3 border-blue">
+							<div class="text-center">
+								<i class="bi bi-1-circle-fill fs-2 text-blue"></i>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center text-blue">Interactive Coding Challenges</h5>
+								<p class="card-text text-center">Test and refine your skills with hands-on coding challenges. These exercises are designed to help you apply what you’ve learned in real-world scenarios.</p>
+							</div>
+							<div class="card-footer text-center bg-blue text-white fw-bold">
+								<small>Hands-on challenges to sharpen your skills!</small>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100 pt-3 border-blue">
+							<div class="text-center">
+								<i class="bi bi-2-circle-fill fs-2 text-blue"></i>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center text-blue">Real-World Projects</h5>
+								<p class="card-text text-center">Work on real-life projects that help you build a portfolio and showcase your web development skills. From building websites to creating APIs, gain practical experience.</p>
+							</div>
+							<div class="card-footer text-center bg-blue text-white fw-bold">
+								<small>Build real projects, boost your portfolio!</small>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100 pt-3 border-blue">
+							<div class="text-center">
+								<i class="bi bi-3-circle-fill fs-2 text-blue"></i>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center text-blue">Developer Community & Support</h5>
+								<p class="card-text text-center">Join a vibrant community of learners and experienced developers. Access forums, discussion groups, and expert support to help you tackle challenges and grow your skills.</p>
+							</div>
+							<div class="card-footer text-center bg-blue text-white fw-bold">
+								<small>Join our community and grow together!</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Resources Start -->
 		</section>
-		<!-- Featured Products End -->
+		<!-- Categories Section End -->
+
+		<!-- About Us Section Start -->
+		<section id="about">
+			<!-- Mission Start -->
+			<div class="container mt-5" id="mission">
+				<h2 class="text-center fs-4 text-blue text-uppercase py-0 my-0">--- About Us ---</h2>
+				<h3 class="text-center fs-4 text-limeblue py-0 my-0">Empowering Developers Worldwide</h3>
+				<p class="text-center text-black mb-0">At PixelBuilders, we’re dedicated to providing top-tier web development education. Our expertly designed courses guide you from beginner to pro, giving you the tools to succeed in the ever-evolving world of web development.</p>
+			</div>
+			<!-- Mission Start -->
+
+			<!-- Contact Us Start -->
+			<div class="container mt-3" id="contact">
+				<div class="row align-items-start">
+					<div class="col pe-5">
+						<h2 class="fs-4 text-blue">Contact Us</h2>
+						<h3 class="fs-5 pt-0 pb-1 my-0">Have Questions? We’re Here to Help!</h3>
+						<p class="text-black mb-0">
+							If you need assistance or have inquiries about our courses, reach out to us. Our support team is ready to guide you on your learning journey.
+						</p>
+						<form action="#" method="POST" class="mt-2">
+							<div class="form-group">
+								<label for="name" class="fw-bold text-blue">Name</label>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name." required>
+							</div>
+					
+							<div class="form-group">
+								<label for="email" class="fw-bold text-blue">Email</label>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address." required>
+							</div>
+					
+							<div class="form-group">
+								<label for="message" class="fw-bold text-blue">Message</label>
+								<textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message." required></textarea>
+							</div>
+							<button type="submit" class="btn btn-blue text-white w-100 fw-bold">Send</button>
+						</form>
+					</div>
+					<div class="col">
+						<h2 class="fs-4 text-blue">Find Us</h2>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.853609470367!2d121.07198697585618!3d14.319934683884998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d71bb1a35f0f%3A0xf7a4551a9f2e8ce3!2s1000WaysToDesign%20with%20Grace!5e0!3m2!1sen!2sph!4v1732534764390!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+					</div>
+				</div>
+	
+			</div>
+			<!-- Contact Us Start -->
+	
+		</section>
+		<!-- About Us Section End -->
 
 		<!-- Sales Promo Start -->
 		<section class="container-fluid mt-5 bg-lightgray py-5">
-			<h2 class="text-center fs-4 text-green text-uppercase py-0 my-0">--- Bloom with Our Deals ---</h2>
-			<h3 class="text-center fs-4 text-limegreen py-0 my-0">Our Sales Promo</h3>
-			<p class="text-center text-black mb-1">Enjoy up to 50% off on select titles during our seasonal sale! Grab your favorite books at discounted prices and let your reading journey flourish.</p>
+			<h2 class="text-center fs-4 text-blue text-uppercase py-0 my-0">--- Learn with Our Deals ---</h2>
+			<h3 class="text-center fs-4 text-limeblue py-0 my-0">Special Offers for Future Coders!</h3>
+			<p class="text-center text-black mb-1">Get exclusive discounts on our premium courses and bundles. Start your learning journey today and save while you build your skills!</p>
 			<div id="countdown" class="countdown-container text-center">
 				<div class="countdown-item fs-2 fw-semibold text-uppercase mb-1">
-				  <span id="days" class="bg-limegreen text-white py-1 px-5 fw-bold fs-3"></span>
+				  <span id="days" class="bg-blue text-white py-1 px-5 fw-bold fs-3"></span>
 				</div>
 				<div class="countdown-item fs-5 fw-semibold text-uppercase">
 				  <span id="time" class="text-dark"></span>
@@ -275,8 +343,8 @@
 			// Initial update
 			updateCountdown();
 		</script>
-		<footer id="footer" class="py-3 fw-bold bg-green text-white text-center container-fluid">
-			<div>© 2024 BookBlossom: All rights reserved.</div>
+		<footer id="footer" class="py-3 fw-bold bg-blue text-white text-center container-fluid">
+			<div>© 2024 PixelBuilders: All rights reserved.</div>
 		</footer>
 	</body>
 </html>
